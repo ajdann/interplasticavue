@@ -1,5 +1,5 @@
 <template>
-    
+<div class="container">
 <div class="tabset">
   <!-- Tab 1 -->
   <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
@@ -198,7 +198,8 @@
         advertisements.</p>
     </section>
   </div>
-
+  
+</div>
 </div>
 </template>
 

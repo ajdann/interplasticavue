@@ -69,7 +69,7 @@
           <img src="/images/karticeslike/profil.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <p class="card-text">PVC profili zauzimaju većinu naše proizvodnje te su savršen spoj kvalitete i pristupačnosti.</p>
-            <button class="btn btn-info" style="background-color: #375066; width: 100px;"><a
+            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
                 style="color: white; text-decoration: none;" href="/profiles">Profili</a></button>
           </div>
         </div>
@@ -79,7 +79,7 @@
           <img src="/images/karticeslike/ograda.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <p class="card-text">Razne opcije u proizvodnji ograda osiguravaju vam proizvod po vašim specifikacijama.</p>
-            <button class="btn btn-info" style="background-color: #375066; width: 100px;"><a
+            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
                 style="color: white; text-decoration: none;" href="/fences">Ograde</a></button>
           </div>
         </div>
@@ -90,7 +90,7 @@
             alt="...">
           <div class="card-body">
             <p class="card-text">Pored profila i ograda, Interplastica nudi inovativna rješenja u sferi PVC prečistača.</p>
-            <button class="btn btn-info" style="background-color: #375066; width: 100px;"><a
+            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
                 style="color: white; text-decoration: none;" href="/precistaci">Prečistači</a></button>
           </div>
         </div>
@@ -106,13 +106,13 @@
     <div class="row">
 
       <div class="col-lg-4 stats">
-        <i class="fa fa-ruler" aria-hidden="true"></i>
+        <i class="fas fa-ruler" aria-hidden="true"></i>
         <div class="counting" data-count="4536000">0</div>
         <h5>Metara ekstrudiranih <br> proizvoda godišnje</h5>
       </div>
 
       <div class="col-lg-4 stats">
-        <i class="fa fa-weight-hanging" aria-hidden="true"></i>
+        <i class="fas fa-weight-hanging" aria-hidden="true"></i>
         <div class="counting" data-count="4320">0</div>
         <h5>Tona prerađene plastične <br> mase godišnje</h5>
       </div>
@@ -239,6 +239,11 @@ section#counter-stats {
     font-size: 60px;
 }
 
+.stats .fas {
+    color: #5598A9;
+    font-size: 60px;
+}
+
 /*/ end count stats /*/
 
 
@@ -257,7 +262,7 @@ section#counter-stats {
 
 
 body {
-    background-color: #fef5df;
+    /* background-color: #fef5df; */
 }
 
 .container-card {

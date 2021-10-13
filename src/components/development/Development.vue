@@ -1,5 +1,5 @@
 <template>
-    
+<div class="container"> 
 <h1 class='align-self-sm-center align-self-md-start' style="margin-top: 140px;">Razvoj Proizvoda</h1>
       <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
 <p style="text-align: justify; margin-bottom: 90px;" class="">Put od ideje do finalnog proizvoda često biva naporan te nosi sa sobom različite zahtjeve. Svaki kupac
@@ -12,7 +12,7 @@
     Nakon dobijanja prototipnih komada prelazi se u serijsku proizvodnju. Također, nudimo optimizirana
     rješenja i varijante pakovanja kao i pomoć u logističkom konceptu. Osiguranje kvaliteta prati cijeli proizvodni proces u svim koracima, pa tako sve do logistike kako bi se
 	na siguran način dopremio proizvod.</p>
-
+</div>
 
 
 <!-- TIMELINE -->

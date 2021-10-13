@@ -1,6 +1,6 @@
 <template>
 
-
+<div class="container">
 <div class="podprofil" style='margin-top: 110px;'>
     <h2>Precistaci</h2>
     <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
@@ -21,7 +21,7 @@
         </div>
     </div>
 </div>
-
+</div>
     
 </template>
 

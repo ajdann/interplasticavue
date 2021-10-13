@@ -41,7 +41,7 @@
             </ul>
         </div>
     </nav>
-<div style="margin-bottom:30px;"></div>
+<!-- <div style="margin-bottom:30px;"></div> -->
  
 </template>
 
@@ -81,7 +81,7 @@ body{
   .navbar {
     height: 70px;
     transition: all 0.3s;
-    position: relative;
+    /* position: relative; */
 
   }
 
@@ -110,6 +110,18 @@ body{
   margin-left: calc(-50vw + 50%);
   background-color: rgba(242, 242, 242, 0.8);
   padding: 37px 0 37px 0;
+}
+.card-body, .card {
+    background-color: #ffffff;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-text {
+    height: 100px;
+
 }
 
 @media (max-width: 800px) {
