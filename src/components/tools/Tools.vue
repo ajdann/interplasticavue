@@ -1,4 +1,79 @@
-<template>as
+<template>
+<div class="container">
+<div class='d-flex justify-content-around mb-5 row ' style="margin-top: 120px;">
+    <div class=" align-self-center text-left col-md-6 col-sm-12 d-flex flex-column">
+      <h1 class='align-self-sm-center align-self-md-start'>Alati</h1>
+      <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
+      <p style="text-align: justify;">
+        Više od 30 godina uspješne proizvodnje alata za ekstruziju za klijente širom svijeta. Izrada alata je naslonjena na našeg strateškog partnera, firmu TD Tools GmbH iz Njemačke, koja ima
+        37 godina iskustva u izradi alata za ekstruziju. Naš partner nudi rješenja iz ove oblasti što
+        podrazumijeva poslove od konstrukcije alata do njihove izrade.
+      </p>
+    </div>
+
+    <div class='col-sm-12 col-md-6 d-flex'>
+      <img class=' align-self-center img-fluid rounded shadow-sm' src="/images/alat.png" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="alatBar d-flex flex-column align-items-center justify-content-center">
+    <div class="container d-flex flex-column">
+<h1 class="align-self-md-start">Preciznost</h1>
+<hr class=' align-self-md-center w-50 ml-0 mt-1 mb-3'>
+<p>
+  Svaki alat je dizajniram u 3D-CAD sistemima da bi se održao najviši stepen preciznosti alata u proizvodnji i finalnom podešavanju.
+</p>
+<img style="width: 500px;" class=" img-fluid mt-3 align-self-start" src="/images/trialata.png" alt="">
+</div>
+</div>
+
+
+<div class="container">
+
+
+  <div class='d-flex flex-column'>
+    <h1 class='align-self-start mt-5' >Proizvodi</h1>
+    <h3 class='mt-4'>Alati za profile prozora - Europski tip</h3>
+    <hr class=' align-self-md-center w-50 ml-0 mt-1 mb-3'>
+    <img class='img-fluid  align-self-start' src="/images/alati/drugatrialata.png" alt="">
+
+  </div>
+
+  <div class=' mt-5 d-flex flex-column '>
+      <h3 class='mt-4'>Alati za profile prozora - Američki tip</h3>
+      <hr class=' align-self-md-center w-50 ml-0 mt-1 mb-3'>
+      <img class='img-fluid  align-self-start' src="/images/alati/dvaalata.png" alt="">
+  
+    </div>
+
+    <div class='mt-5 d-flex flex-column '>
+        <h3 class='mt-4'>Alati za WPC aplikacije</h3>
+        <hr class=' align-self-md-center w-50 ml-0 mt-1 mb-3'>
+        <img class='img-fluid  align-self-start' src="/images/alati/drugadvaalata.png" alt="">
+    
+      </div>
+
+      <div class='mt-5 d-flex flex-column '>
+          <h3 class='mt-4'>Alati za panele i ograde</h3>
+          <hr class=' align-self-md-center w-50 ml-0 mt-1 mb-3'>
+          <img class='img-fluid  align-self-start' src="/images/alati/trecadvaalata.png" alt="">
+      
+        </div>
+
+
+        
+      <div class='mt-5 d-flex flex-column '>
+          <h3 class='mt-4'>Alati za kanalice</h3>
+          <hr class=' align-self-md-center w-50 ml-0 mt-1 mb-3'>
+          <img class='img-fluid  align-self-start' src="/images/alati/cetvrtadvaalata.png" alt="">
+      
+        </div>
+
+
+</div>
     
 </template>
 <style >
