@@ -385,7 +385,7 @@
         height: 20% !important;
     }
     .carousel-inner {
-        height: 320px;
+        height: 500px;
     }
     #nekidrugistub {
         width: 58% !important;

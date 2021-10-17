@@ -40,18 +40,21 @@
 
             </ul>
              <div class="locale-changer">
-        <select v-model="$i18n.locale">
+        <select id='langPicker' v-model="$i18n.locale">
           <option
+            :class="`lang-option`"
             v-for="locale in $i18n.availableLocales"
             :key="`locale-${locale}`"
             :value="locale"
-            >{{ locale }}</option
+            ><p v-if="locale == 'bs'"> BS</p>
+              <p v-else> EN</p>
+            </option
           >
         </select>
       </div>
         </div>
     </nav>
-<!-- <div style="margin-bottom:30px;"></div> -->
+<div style="margin-bottom:30px;"></div>
  
 </template>
 
@@ -63,13 +66,22 @@
   text-transform: uppercase
 ;
 }
+.locale-changer > select > option {
+  width: 50px !important;
+}
+.locale-changer > select:focus-visible{
+ outline: 0;
+}
+.locale-changer > select:focus{
+   outline: 0;
+}
 body{
   background-image: url('/images/logopozadina.PNG') !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
   background-position: top right  !important;
   background-size: 1200px !important;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Arial', sans-serif !important;
 
  
 
@@ -190,6 +202,7 @@ body{
 }
 
 #prviRazvoj{
+  overflow-x: hidden !important;
   background-color: #375066;
   color: white;
   border-right: 7px solid white;

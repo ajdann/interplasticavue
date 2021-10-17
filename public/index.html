@@ -74,6 +74,9 @@
     /* SCROLL BUTON */
     
 $(document).ready(function(){ 
+    $("#langPicker").click(function(){
+        localStorage.setItem('lang',$(this).val())    
+});
     
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 100) { 
@@ -87,6 +90,8 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
+
 
 
 

@@ -117,7 +117,7 @@
             <h5><strong>Materijali</strong></h5>
             <p>Reciklat PVC prozorskih profila</p>
             <h5><strong>Kompatibilnost</strong></h5>
-            <img src="/images/brugman.png" alt="" style="width: 80px;">
+            <img src="/images/brugman.png" alt="" style="width: 80px !important;">
           </div>
         </div>
       </div>
@@ -136,10 +136,10 @@
             <h5><strong>Materijali</strong></h5>
             <p>Reciklat PVC prozorskih profila</p>
             <h5><strong>Kompatibilnost</strong></h5>
-            <img src="/images/brugman.png" alt="" style="width: 80px;">
-            <img src="/images/salamander.png" alt="" style="width: 80px;">
-            <img src="/images/inoutic.png" alt="" style="width: 80px;">
-            <img src="/images/veka.png" alt="" style="width: 80px;">
+            <img src="/images/brugman.png" alt="" style="width: 80px !important;">
+            <img src="/images/salamander.png" alt="" style="width: 80px !important;">
+            <img src="/images/inoutic.png" alt="" style="width: 80px !important;">
+            <img src="/images/veka.png" alt="" style="width: 80px !important;">
           </div>
         </div>
       </div>
@@ -158,8 +158,8 @@
             <h5><strong>Materijali</strong></h5>
             <p>Reciklat PVC prozorskih profila</p>
             <h5><strong>Kompatibilnost</strong></h5>
-            <img src="/images/inoutic.png" alt="" style="width: 80px;">
-            <img src="/images/gealan.png" alt="" style="width: 80px;">
+            <img src="/images/inoutic.png" alt="" style="width: 80px !important;">
+            <img src="/images/gealan.png" alt="" style="width: 80px !important;">
           </div>
         </div>
       </div>
@@ -179,7 +179,7 @@
             <h5><strong>Materijali</strong></h5>
             <p>Reciklat PVC prozorskih profila</p>
             <h5><strong>Kompatibilnost</strong></h5>
-            <img src="/images/salamander.png" alt="" style="width: 80px;">
+            <img src="/images/salamander.png" alt="" style="width: 80px !important;">
 
           </div>
         </div>
@@ -226,14 +226,14 @@
    Styling
   */
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
 
     /* font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif; */
     /* color: #333; */
     font-weight: 300;
   }
   .tab-panel{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
   }
   
   .tabset > label {

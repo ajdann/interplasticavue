@@ -145,7 +145,7 @@
 
         <p><em>Vrijednosti koje definisu našu kompaniju prate svaki korak proizvodnog procesa.</em></p>
         <div class="row">
-          <div id="prviRazvoj" class="col-sm-12 col-md-4 p-3  aaa">
+          <div id="prviRazvoj" class="col-sm-12 col-md-4 p-3  aaa overflow-auto">
             <h4 class="mt-3">Znanje i iskustvo</h4>
             <span>
               <ul style="margin-left: -20px;">
@@ -231,7 +231,7 @@ section#counter-stats {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .stats .fa {
