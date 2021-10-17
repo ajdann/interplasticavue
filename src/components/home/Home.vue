@@ -43,7 +43,7 @@
  
   <div class='d-flex justify-content-around mb-3 row '>
     <div class=" align-self-center text-left col-md-6 col-sm-12 d-flex flex-column">
-      <h1 class='align-self-sm-center align-self-md-start'>Dobrodošli</h1>
+      <h1 class='align-self-sm-center align-self-md-start'>{{ $t('xd') }}</h1>
       <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
       <p style="text-align: justify;">
         Dobrodošli na web stranicu Interplastica d.o.o. Interplastica je firma bazirana u Zenici koja se bavi naprednim rješenjima PVC ekstruzije. 

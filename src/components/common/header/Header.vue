@@ -7,7 +7,7 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <router-link class="nav-link" to="/">Naslovna <span class="sr-only">(current)</span></router-link>
@@ -39,13 +39,30 @@
             
 
             </ul>
+             <div class="locale-changer">
+        <select v-model="$i18n.locale">
+          <option
+            v-for="locale in $i18n.availableLocales"
+            :key="`locale-${locale}`"
+            :value="locale"
+            >{{ locale }}</option
+          >
+        </select>
+      </div>
         </div>
     </nav>
 <!-- <div style="margin-bottom:30px;"></div> -->
  
 </template>
 
+
 <style>
+.locale-changer > select {
+  background: rgb(248, 249, 250);
+  border: 0;
+  text-transform: uppercase
+;
+}
 body{
   background-image: url('/images/logopozadina.PNG') !important;
   background-repeat: no-repeat !important;
