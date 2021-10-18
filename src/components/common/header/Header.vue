@@ -10,31 +10,31 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <router-link class="nav-link" to="/">Naslovna <span class="sr-only">(current)</span></router-link>
+                    <router-link class="nav-link" to="/">{{ $t('home') }}  <span class="sr-only">(current)</span></router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/onama" class="nav-link">O nama</router-link>
+                    <router-link to="/onama" class="nav-link">{{ $t('aboutUs')}}</router-link>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Proizvodi
+                        {{$t('products')}}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/profiles">Profili</a>
-                        <a class="dropdown-item" href="/precistaci">Precistaci</a>
+                        <a class="dropdown-item" href="/profiles">{{ $t('profiles')}}</a>
+                        <a class="dropdown-item" href="/precistaci">{{ $t('filters')}}</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/fences">Ograde</a>
+                        <a class="dropdown-item" href="/fences">{{ $t('fences')}}</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/alati">Alati</a>
+                    <a class="nav-link" href="/alati">{{ $t('tools')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/razvoj">Razvoj</a>
+                    <a class="nav-link" href="/razvoj">{{ $t('development')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Kontakt</a>
+                    <a class="nav-link" href="/contact">{{ $t('contact')}}</a>
                 </li>
             
 

@@ -1,4 +1,55 @@
 {
-  "message": "hello i18n !!",
-  "xd": "aksfasfa"
+  "home": "Home",
+  "aboutUs": "About us",
+  "products": "Products",
+  "profiles": "Profiles",
+  "filters": "Filters",
+  "fences": "Fences",
+  "development": "Development",
+  "contact" : "Contact",
+  "tools": "Tools",
+  "welcome": "Welcome",
+  "welcomeText": "Welcome to the website of Interplastica d.o.o. Interplastica is a company based in Zenica that deals with advanced PVC extrusion solutions.",
+  "welcomeText2":  "On the site you can find information about our company, our way of working and the products we offer. For everything else, we invite you to contact us. ",
+  "contactUs": "Contact us",
+  "carousel1": "Advanced extrusion solutions",
+  "carousel2": "Experience and innovation",
+  "carousel2button": "Product development",
+  "carousel3": "Modern equipment and educated personel",
+  "carousel3button": "Our tools",
+  "card1": "PVC profiles occupy most of our production and are a perfect combination of quality and affordability.",
+  "card2": "Various options in the production of fences provide you with a product according to your specifications.",
+  "card3": "In addition to profiles and fences, Interplastica offers innovative solutions in the field of PVC purifiers.",
+  "icon1text": "Meters of extruded",
+  "icon1text2": "product a year",
+  "icon2text": "Tons of processed",
+  "icon2text2": "plastic per year",
+  "icon3text": "Number of products",
+  "ourValues": "Our Values",
+  "ourValuesText": "The values that define our company follow every step of the production process.",
+  "knowledge": "Knowledge and experience",
+  "machinePark": "Machine park",
+  "materials": "Materials we use",
+  "thirtyYears": "Over 30 years of experience in the field of extrusion.",
+    "mostComplex": "The most demanding solutions in extrusion. ",
+    "manyPartnerships": "Numerous successful collaborations and partnerships around the world. ",
+  "machineParkText": "The machine park is filled with machines from eminent European equipment manufacturers in this area.",
+  "materialsText1": "Materials which we use: ",
+  "materialsText2": "PVC, soft PVC, ABS, PP, HDPE, LDPE, TPE, WPVC...",
+
+
+  "aboutUsText1": "Interplastica d.o.o Zenica was established in 2016. Although a relatively young company, Interplastica with its partner TD Tools has many years of experience in the field of extrusion. Interplastica is a combination of German knowledge and Bosnian industrial tradition and enthusiasm. ",
+  "mainActivity": "Main Activity:",
+  "processDevelopment": "Extrusion process and product development ",
+  "serialService": "Plastic profile extrusion services",
+  "coExtrusion": "Coextrusion is a common process in our production with the use of up to 4 types of materials simultaneously.",
+  "partners": "Partners"
+
+
+
+
+
+
+
+
 }

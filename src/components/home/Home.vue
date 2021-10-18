@@ -10,21 +10,21 @@
     <div class="carousel-item active">
       <img class="d-block w-100 filter" src="/images/naslovna/1.jpg" alt="First slide">
       <div class="carousel-caption d-flex justify-content-center align-items-center">
-        <h5>Napredna rješenja u ekstruziji</h5>
+        <h5>{{$t('carousel1')}}</h5>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100 filter" src="/images/naslovna/2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-block">
-        <h5>Iskustvo i inovativnost</h5>
-        <button type="button" onclick="window.location.href='/razvoj'" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">Razvoj proizvoda</button>
+        <h5>{{$t('carousel2')}}</h5>
+        <button type="button" onclick="window.location.href='/razvoj'" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">{{$t('carousel2button')}}</button>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100 filter" src="/images/naslovna/3.jpg" alt="Third slide">
       <div class="carousel-caption d-flex align-items-center flex-column ">
-        <h5>Savremena oprema i obrazovani kadar</h5>
-        <button type="button" onclick="window.location.href='/alati'" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">Naši alati</button>
+        <h5>{{$t('carousel3')}}</h5>
+        <button type="button" onclick="window.location.href='/alati'" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">{{$t('carousel3button')}}</button>
       </div>
     </div>
   </div>
@@ -43,14 +43,15 @@
  
   <div class='d-flex justify-content-around mb-3 row '>
     <div class=" align-self-center text-left col-md-6 col-sm-12 d-flex flex-column">
-      <h1 class='align-self-sm-center align-self-md-start'>{{ $t('xd') }}</h1>
+      <h1 class='align-self-sm-center align-self-md-start'>{{ $t('welcome') }}</h1>
       <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
       <p style="text-align: justify;">
-        Dobrodošli na web stranicu Interplastica d.o.o. Interplastica je firma bazirana u Zenici koja se bavi naprednim rješenjima PVC ekstruzije. 
+       {{$t('welcomeText')}} 
       </p>
-     <p>Na stranici možete naći informacije o firmi, našem načinu rada te proizvodima koje nudimo. Za sve ostalo, pozivamo vas da nas kontaktirate.</p>
+       {{$t('welcomeText2')}} 
+     <p></p>
      <button class="btn btn-info py-2" style="background-color: #375066; width: 150px;"><a
-      style="color: white; text-decoration: none;" href="/contact">Kontaktirajte Nas</a></button>
+      style="color: white; text-decoration: none;" href="/contact">{{$t('contactUs')}}</a></button>
     </div>
 
     <div class='col-sm-12 col-md-6'>
@@ -68,9 +69,10 @@
         <div class="card" style="width: 18rem;">
           <img src="/images/karticeslike/profil.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
-            <p class="card-text">PVC profili zauzimaju većinu naše proizvodnje te su savršen spoj kvalitete i pristupačnosti.</p>
+       
+            <p class="card-text">{{$t('card1')}} </p>
             <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
-                style="color: white; text-decoration: none;" href="/profiles">Profili</a></button>
+                style="color: white; text-decoration: none;" href="/profiles">{{$t('profiles')}}</a></button>
           </div>
         </div>
       </div>
@@ -78,9 +80,9 @@
         <div class="card mw-25" style="width: 18rem;">
           <img src="/images/karticeslike/ograda.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
-            <p class="card-text">Razne opcije u proizvodnji ograda osiguravaju vam proizvod po vašim specifikacijama.</p>
+            <p class="card-text">{{$t('card2')}}</p>
             <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
-                style="color: white; text-decoration: none;" href="/fences">Ograde</a></button>
+                style="color: white; text-decoration: none;" href="/fences">{{$t('fences')}}</a></button>
           </div>
         </div>
       </div>
@@ -89,9 +91,9 @@
           <img src="/images/karticeslike/precistac.png" class="card-img-top"
             alt="...">
           <div class="card-body">
-            <p class="card-text">Pored profila i ograda, Interplastica nudi inovativna rješenja u sferi PVC prečistača.</p>
+            <p class="card-text">{{$t('card3')}}</p>
             <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
-                style="color: white; text-decoration: none;" href="/precistaci">Prečistači</a></button>
+                style="color: white; text-decoration: none;" href="/precistaci">{{$t('filters')}}</a></button>
           </div>
         </div>
       </div>
@@ -108,20 +110,20 @@
       <div class="col-lg-4 stats">
         <i class="fas fa-ruler" aria-hidden="true"></i>
         <div class="counting" data-count="4536000">0</div>
-        <h5>Metara ekstrudiranih <br> proizvoda godišnje</h5>
+        <h5>{{$t('icon1text')}} <br> {{$t('icon1text2')}}</h5>
       </div>
 
       <div class="col-lg-4 stats">
         <i class="fas fa-weight-hanging" aria-hidden="true"></i>
         <div class="counting" data-count="4320">0</div>
-        <h5>Tona prerađene plastične <br> mase godišnje</h5>
+        <h5>{{$t('icon2text')}}<br> {{$t('icon2text2')}}</h5>
       </div>
 
       <div class="col-lg-4 stats">
         <i class="fa fa-check" aria-hidden="true"></i>
         <br>
         <div class="counting" style="display: inline-block" data-count="30">0</div>+
-        <h5>Broj proizvoda</h5>
+        <h5>{{$t('icon3text')}}</h5>
       </div>
 
    
@@ -141,24 +143,24 @@
           src="https://www.rehau.com/images/238420/1x1/600/600/70a5ef9218fc49506cbdebf0544830bb/tS/238420.jpg" alt="">
       </div>
       <div class="col-sm-12 col-md-7">
-        <h3 id="naslovRazvoj">Naše Vrijednosti</h3>
+        <h3 id="naslovRazvoj"> {{$t('ourValues')}}</h3>
 
-        <p><em>Vrijednosti koje definisu našu kompaniju prate svaki korak proizvodnog procesa.</em></p>
+        <p><em> {{$t('ourValuesText')}}</em></p>
         <div class="row">
           <div id="prviRazvoj" class="col-sm-12 col-md-4 p-3  aaa overflow-auto">
-            <h4 class="mt-3">Znanje i iskustvo</h4>
+            <h4 class="mt-3"> {{$t('knowledge')}}</h4>
             <span>
               <ul style="margin-left: -20px;">
-                <li>Preko 30 godina iskustva u oblasti ekstruzije.</li>
-                <li>Najzahtjevnija rješenja u ekstruziji.</li>
-                <li>Mnogobrojne uspjesne saradnje i partnerstva sirom svijeta.</li>
+                <li>{{$t('thirtyYears')}}</li>
+                <li>{{$t('mostComplex')}}</li>
+                <li>{{$t('manyPartnerships')}}</li>
               </ul>
             </span>
           </div>
           <div id="drugiRazvoj" class="col-sm-12 col-md-4 p-3 aaa overflow-auto" >
-            <h4 class="mt-3">Mašinski park</h4>
+            <h4 class="mt-3"> {{$t('machinePark')}}</h4>
             <span>
-               <p>Mašinski park je popunjen mašinama eminentnih evropskih proizvođača opreme u ovoj oblasti.</p>
+               <p>{{$t('machineParkText')}}</p>
               <ul style="margin-left: -20px;">
                 <li><strong>Extrunet ECO 90</strong></li>
                 <li><strong>Extrunet ECO 68</strong></li>
@@ -168,8 +170,8 @@
 
           </div>
           <div id="treciRazvoj" class="col-sm-12 col-md-4 p-3  aaa ">
-            <h4 class="mt-3">Materijali koje koristimo</h4>
-            <span>Materijali sa kojim se susrećemo su: <strong> PVC, meki PVC, ABS, PP, HDPE, LDPE, TPE, WPVC...</strong></span>
+            <h4 class="mt-3"> {{$t('materials')}}</h4>
+            <span>{{$t('materialsText1')}} <strong> {{$t('materialsText2')}}</strong></span>
           </div>
         </div>
 

@@ -1,4 +1,52 @@
 {
-    "message": "bosansski",
-    "xd": "bosanski "
+    "home": "Naslovna",
+    "aboutUs": "O nama",
+    "products": "Proizvodi",
+    "profiles": "Profili",
+    "filters": "Prečistači",
+    "fences": "Ograde",
+    "development": "Razvoj",
+    "contact" : "Kontakt",
+    "tools": "Alati",
+    "welcome": "Dobrodošli",
+    "welcomeText": "Dobrodošli na web stranicu Interplastica d.o.o. Interplastica je firma bazirana u Zenici koja se bavi naprednim rješenjima PVC ekstruzije.",
+     "welcomeText2":  "Na stranici možete naći informacije o firmi, našem načinu rada te proizvodima koje nudimo. Za sve ostalo, pozivamo vas da nas kontaktirate.",
+    "contactUs": "Kontaktirajte nas",
+    "carousel1": "Napredna rješenja u ekstruziji",
+    "carousel2": "Iskustvo i inovativnost",
+    "carousel2button": "Razvoj proizoda",
+    "carousel3": "Savremena oprema i obrazovani kadar",
+    "carousel3button": "Naši alati",
+    "card1": "PVC profili zauzimaju većinu naše proizvodnje te su savršen spoj kvalitete i pristupačnosti.",
+    "card2": "Razne opcije u proizvodnji ograda osiguravaju vam proizvod po vašim specifikacijama.",
+    "card3": "Pored profila i ograda, Interplastica nudi inovativna rješenja u sferi PVC prečistača.",
+    "icon1text": "Metara ekstrudiranih",
+    "icon1text2": "proizvoda godišnje",
+    "icon2text": "Tona prerađene plastične",
+    "icon2text2": "mase godišnje",
+    "icon3text": "Broj proizvoda",
+    "ourValues": "Naše Vrijednosti",
+    "ourValuesText": "Vrijednosti koje definisu našu kompaniju prate svaki korak proizvodnog procesa.",
+    "knowledge": "Znanje i iskustvo",
+    "machinePark": "Mašinski park",
+    "materials": "Materijali koje koristimo",
+    "thirtyYears": "Preko 30 godina iskustva u oblasti ekstruzije.",
+    "mostComplex": "Najzahtjevnija rješenja u ekstruziji.",
+    "manyPartnerships": "Mnogobrojne uspjesne saradnje i partnerstva sirom svijeta.",
+    "machineParkText": "Mašinski park je popunjen mašinama eminentnih evropskih proizvođača opreme u ovoj oblasti.",
+    "materialsText1": "Materijali sa kojim se susrećemo su: ",
+    "materialsText2": "PVC, meki PVC, ABS, PP, HDPE, LDPE, TPE, WPVC...",
+
+
+    "aboutUsText1": "Interplastica d.o.o Zenica je nastala 2016. godine. Iako relativno mlada firma, Interplastica sa svojim partnerom TD Tools ima višegodišnje iskustvo u oblasti ekstruzije. Interplastica predstavlja spoj njemačkog znanja i bosanskohercegovačke industrijske tradicije i entuzijazma.",
+    "mainActivity": "Osnovna Djelatnost:",
+    "processDevelopment": "Razvoj procesa i proizvoda u ekstruziji",
+    "serialService": "Usluga serijskog ekstrudiranja plastičnih profila",
+    "coExtrusion": "Koekstruzija je uobičajen proces u našoj proizvodnji sa korištenjem i do 4 vrste materijala istovremeno.",
+    "partners": "Partneri"
+
+
+    
+    
+
   }

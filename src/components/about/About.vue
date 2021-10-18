@@ -14,21 +14,19 @@
     </div>
 
     <div class=" align-self-center text-left col-md-6 col-sm-12 d-flex flex-column mb-2 mt-4">
-      <h1 class='align-self-sm-center align-self-md-start'>O nama</h1>
+      <h1 class='align-self-sm-center align-self-md-start'>{{$t('aboutUs')}}</h1>
       <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
       <p style="text-align: justify;">
-        Interplastica d.o.o Zenica je nastala 2016. godine. Iako relativno mlada firma, Interplastica sa svojim
-        partnerom TD Tools ima višegodišnje iskustvo u oblasti ekstruzije. Interplastica predstavlja spoj
-        njemačkog znanja i bosanskohercegovačke industrijske tradicije i entuzijazma.
+       {{$t('aboutUsText1')}}
       </p>
-      <p class='lead'>Osnovna djelatnost:</p>
+      <p class='lead'>{{$t('mainActivity')}}</p>
       <ul class='mb-5'>
-        <li>Razvoj procesa i proizvoda u ekstruziji</li>
+        <li>{{$t('processDevelopment')}}</li>
         <li>
-          Usluga serijskog ekstrudiranja plastičnih profila
+         {{$t('serialService')}}
         </li>
         <li>
-          Koekstruzija je uobičajen proces u našoj proizvodnji sa korištenjem i do 4 vrste materijala istovremeno.
+          {{$t('coExtrusion')}}
         </li>
       </ul>
 
@@ -40,7 +38,7 @@
 
 
 
-  <h1 class='align-self-sm-center align-self-md-start'>Partneri</h1>
+  <h1 class='align-self-sm-center align-self-md-start'>{{$t('partners')}}</h1>
   <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
 
   <div class="row align-items-center">
