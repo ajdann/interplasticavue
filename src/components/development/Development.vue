@@ -1,66 +1,53 @@
 <template>
 <div class="container"> 
-<h1 class='align-self-sm-center align-self-md-start' style="margin-top: 140px;">Razvoj Proizvoda</h1>
+<h1 class='align-self-sm-center align-self-md-start' style="margin-top: 140px;">{{$t('productDevelopment')}}</h1>
       <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
-<p style="text-align: justify; margin-bottom: 90px;" class="">Put od ideje do finalnog proizvoda često biva naporan te nosi sa sobom različite zahtjeve. Svaki kupac
-    želi kompletnu uslugu za svoj proizvod. Upravo u tome mi vidimo svoju prednost jer ćemo potpunom
-    uslugom rasteretiti kupca a cjelokupni proces dobijanja novog proizvoda učiniti kompaktnim i
-    sveobuhvatnijm.
-    Iz tog razoga, nudimo cjelokupno rješenje za Vaš proizvod, počevši od same ideje do konačnog
-    proizvoda. Tokom cijelog razvoja novog proizvoda nudimo podršku pri dizajnu, konstrukciji i izradi
-    alata kao i odabir odgovarajućeg materijala.
-    Nakon dobijanja prototipnih komada prelazi se u serijsku proizvodnju. Također, nudimo optimizirana
-    rješenja i varijante pakovanja kao i pomoć u logističkom konceptu. Osiguranje kvaliteta prati cijeli proizvodni proces u svim koracima, pa tako sve do logistike kako bi se
-	na siguran način dopremio proizvod.</p>
+<p style="text-align: justify; margin-bottom: 90px;" class="">{{$t('developmentText')}}</p>
 </div>
 
 
 <!-- TIMELINE -->
 <div class="wide-div">
-<h1 id="naslovTimeline">TOK RAZVOJA</h1>
+<h1 id="naslovTimeline">{{$t('developmentProcess')}}</h1>
 <div class="flex-parent">
 	<div class="input-flex-container">
 		<input type="radio" name="timeline-dot" data-description="1910"  checked>
 		<div class="dot-info" data-description="1910">
 			<span class="year">1</span>
-			<span class="label">Ideja</span>
+			<span class="label">{{$t('idea')}}</span>
 		</div>
 		<input type="radio" name="timeline-dot" data-description="1920">
 		<div class="dot-info" data-description="1920">
 			<span class="year">2</span>
-			<span class="label">Dizajn</span>
+			<span class="label">{{$t('design')}}</span>
 		</div>
 		<input type="radio" name="timeline-dot" data-description="1930">
 		<div class="dot-info" data-description="1930">
 			<span class="year">3</span>
-			<span class="label">Uzorčenje</span>
+			<span class="label">{{$t('sampling')}}</span>
 		</div>
 		<input type="radio" name="timeline-dot" data-description="1940" id="isprekidana">
 		<div class="dot-info" data-description="1940">
 			<span class="year">4</span>
-			<span class="label">Serijska Proizvodnja</span>
+			<span class="label">{{$t('massProduction')}}</span>
 		</div>
 		<input type="radio" name="timeline-dot" data-description="1950" id="isprekidana2">
 		<div class="dot-info" data-description="1950">
 			<span class="year">5</span>
-			<span class="label">Pakovanje</span>
+			<span class="label">{{$t('packaging')}}</span>
 		</div>
 		<input type="radio" name="timeline-dot" data-description="1960" id="popunjena">
 		<div class="dot-info" data-description="1960">
 			<span class="year">6</span>
-			<span class="label">Logisticki Koncept</span>
+			<span class="label">{{$t('logisticsConcept')}}</span>
 		</div>
 		<div id="timeline-descriptions-wrapper" style="margin-top: 50px;">
-			<p data-description="1910">Svaki zahtjev od kupca je za nas novi izazov. Sve počinje sa dobrom idejom.</p>
-			<p data-description="1920">Dizajn, konstrukcija i izrada alata je temelj svakog ekstrudiranog proizvoda. Osim proizvoda u ovom
-					dijelu nastaje koncept cijelog procesa novog proizvoda. Po potrebi izrađujemo 3D prototip proizvoda.</p>
-			<p data-description="1930">Dobijanjem prvih komada vršimo interna i eksterno testiranja što podrazumijeva dimenzijsku i
-					funkcionalnu kontrolu. Na kraju kao potvrdu dobijamo odobrenje od kupca da se može ići u serijsku
-					proizvodnju proizvoda.</p>
-			<p data-description="1940">Svakim minutom se dobijaju novi metri perfektnog proizvoda i tako kontinuirano iz sata u sat (24/7).</p>
-			<p data-description="1950">Kompaktna, sigurna i optimizirana rješenja pakovanja proizvoda.</p>
-			<p data-description="1960">Sveobuhvatan i usklađen logistički koncept zaokružuje kompletan proces razvoja novog
-					proizvoda.</p>
+			<p data-description="1910">{{$t('developmentProcessText1')}}</p>
+			<p data-description="1920">{{$t('developmentProcessText2')}}</p>
+			<p data-description="1930">{{$t('developmentProcessText3')}}</p>
+			<p data-description="1940">{{$t('developmentProcessText4')}}</p>
+			<p data-description="1950">{{$t('developmentProcessText5')}}</p>
+			<p data-description="1960">{{$t('developmentProcessText6')}}</p>
 		</div>
 	</div>
 </div>

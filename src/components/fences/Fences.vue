@@ -3,22 +3,22 @@
 <div class="xdcontainer" style="width: 90% !important; margin: 0 auto;">
   <div class="maContainer" style="max-width: 90em; margin: 0 auto;">
     <div class="podprofil" style='margin-top: 110px;'>
-      <h2>Karakteristike Ograda</h2>
+      <h2>{{$t('fencesCharacteristics')}}</h2>
       <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
       <div class="row d-flex justify-content-around align-items-center">
         <div class="col-lg-4 col-md-12">
           <img id='ogradaprvaslika' src="/images/ograde/ograda1.png" style="width: 100%;" alt="" class="slikeProfila mb-2">
         </div>
         <div class="col-lg-4 col-md-12 mt-2 fontOgrade">
-          <h5><strong>Garancija</strong></h5>
-          <p>Uz sve nase ograde, dobijate 10 godina garancije</p>
-          <h5><strong>UV Stabilnost</strong></h5>
-          <p>Garantovanost UV stabilnosti svih ograda</p>
-          <h5><strong>Montaza</strong></h5>
-          <p>Montaža na betonskoj i zemljanoj podlozi</p>
-          <h5><strong>Dimenzije</strong></h5>
-          <p>Širina i visina panela dostupna u različitim dimenzijama</p>
-          <h5><strong>Dostupne boje</strong></h5>
+          <h5><strong>{{$t('warranty')}}</strong></h5>
+          <p>{{$t('warrantyText')}}</p>
+          <h5><strong>{{$t('UVStability')}}</strong></h5>
+          <p>{{$t('UVStabilityText')}}</p>
+          <h5><strong>{{$t('assembly')}}</strong></h5>
+          <p>{{$t('assemblyText')}}</p>
+          <h5><strong>{{$t('dimensions')}}</strong></h5>
+          <p>{{$t('dimensionsText')}}</p>
+          <h5><strong>{{$t('availableColors')}}</strong></h5>
           <div class="d-flex flex-row justify-content-around">
             <div class="boja rounded shadow-sm prvaBoja"></div>
             <div class="boja rounded shadow-sm drugaBoja"></div>
@@ -40,7 +40,7 @@
 
       <div class="templateOgrada">
         <div class="podprofil">
-          <h2>Koncept <strong>BASIC</strong></h2>
+          <h2>{{$t('Concept')}} <strong>BASIC</strong></h2>
           <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
           <h3 class="mt-5">Panel</h3>
           <div class="row justify-content-between">
@@ -48,15 +48,15 @@
               <img src="/images/ograde/panelbasic.png" alt="" class="slikeProfila" style="width: 65%;">
             </div>
             <div class="col-lg-5 col-md-12 mt-2 fontOgrade">
-              <h5><strong>Dimenzije panela</strong></h5>
-              <p>174cm(širina) x 180cm(visina)</p>
-              <h5><strong>Dijelovi za montažu:</strong></h5>
+              <h5><strong>{{$t('panelDimensions')}}</strong></h5>
+              <p>{{$t('basicDimensionsText')}}</p>
+              <h5><strong>{{$t('basicAssemblyParts')}}</strong></h5>
               <ul>
-                <li>Okvir – 2 kom</li>
-                <li>Ispuna – 12 kom</li>
-                <li>Ojačanje (metal)</li>
+                <li>{{$t('basicAssemblyPartsText1')}}</li>
+                <li>{{$t('basicAssemblyPartsText2')}}</li>
+                <li>{{$t('basicAssemblyPartsText3')}}</li>
               </ul>
-              <h5><strong>Dostupne boje</strong></h5>
+              <h5><strong>{{$t('availableColors')}}</strong></h5>
               <div class="d-flex flex-row justify-content-around">
                 <div class="boja rounded shadow-sm prvaBoja"></div>
                 <div class="boja rounded shadow-sm drugaBoja"></div>
@@ -67,25 +67,25 @@
           </div>
         </div>
         <div class="podprofil" style='margin-top: -30px;'>
-          <h3>Stub</h3>
+          <h3>{{$t('post')}}</h3>
           <div class="row justify-content-between">
             <div class="col-lg-7 col-md-12">
               <img src="/images/ograde/stubbasic.png" alt="" class="slikeProfila ml-2" style="width: 80%;">
             </div>
             <div  class="col-lg-5 col-md-12 mt-2 fontOgrade">
-              <h5 id='marginaispodstuba' ><strong>Dimenzije stuba</strong></h5>
+              <h5 id='marginaispodstuba' ><strong>{{$t('postDimensions')}}</strong></h5>
               <ul>
-                <li>Kvadratni presjek-10x10cm</li>
-                <li>Debljina stijenke-3,50mm</li>
+                <li>{{$t('postDimensionsText1')}}</li>
+                <li>{{$t('postDimensionsText2')}}</li>
               </ul>
-              <h5><strong>Dijelovi za montažu na zemljanoj podlozi:</strong></h5>
+              <h5><strong>{{$t('assemblyPartsOnGround')}}</strong></h5>
               <ul>
-                <li>Stub</li>
-                <li>Vijci</li>
+                <li>{{$t('post')}}</li>
+                <li>{{$t('screws')}}</li>
               </ul>
 
-              <h5><strong>Kape</strong></h5>
-              <p>Plasticna, Inox(Ravna), Inox(Piramida)</p>
+              <h5><strong>{{$t('caps')}}</strong></h5>
+              <p>{{$t('capsText')}})</p>
               <img src="/images/ograde/kape.png" class="w-75" alt="">
               <!-- <h5><strong>Dostupne boje</strong></h5>
         <div class="d-flex flex-row justify-content-around">

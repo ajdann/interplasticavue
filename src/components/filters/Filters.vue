@@ -2,7 +2,7 @@
 
 <div class="container">
 <div class="podprofil" style='margin-top: 110px;'>
-    <h2>Precistaci</h2>
+    <h2>{{$t('filters')}}</h2>
     <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
     <div class="row justify-content-between">
         <div class="col-lg-7 col-md-12">
@@ -10,13 +10,10 @@
         </div>
         <div class="col-lg-5 col-md-12 mt-2 d-flex flex-column align-items-center">
             <p>
-                Potpuno biološko rješenje za pročišćavanje komunalnih i komercijalnih otpadnih voda. Modularni
-                dizajn, fleksibilna nadogradivost i dugoročna pouzdanost su samo neke odlike prečistaća.
+               {{$t('filters1')}}
             </p>
             <p >
-                Prilagođavanje individualnim zahtjevima znači da je sistem jedinstveno dizajniran projekt, također je
-                moguće proširiti ili nadograditi postojeće instalacije. Ključ visoke učinkovitosti ovih prešistaća je
-                dizajn koji osiguravaju veliku biološku aktivnu površinu.
+                {{$t('filters2')}}
             </p>
         </div>
     </div>

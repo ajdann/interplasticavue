@@ -3,10 +3,10 @@
 <div class="tabset">
   <!-- Tab 1 -->
   <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
-  <label for="tab1">Profili</label>
+  <label for="tab1">{{$t('profiles')}}</label>
   <!-- Tab 2 -->
   <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
-  <label for="tab2">Podprofili</label>
+  <label for="tab2">{{$t('subprofiles')}}</label>
   <!-- Tab 3 -->
   <!-- <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
   <label for="tab3">Ostalo</label> -->
@@ -15,27 +15,25 @@
     <!-- PROFILI -->
     <section id="marzen" class="tab-panel">
       <div class="podprofil">
-        <h2>Univerzalni PVC profil za pragove</h2>
+        <h2>{{$t('universalProfile')}}</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-between">
           <div class="col-lg-7 col-md-12">
             <img id="prag" src="/images/podprofili/1.png" alt="" class="slikeProfila">
           </div>
           <div class="col-lg-5 col-md-12 mt-2">
-            <h5><strong>Dizajn</strong></h5>
-            <p>Fleksibilnost, sa priključkom
-              na aluminijski prag.
-              Moguća univerzalna primjena.</p>
-            <h5><strong>Materijali</strong></h5>
-            <p>Reciklat PVC prozorskih profila</p>
-            <h5><strong>Kompatibilnost</strong></h5>
-            <p>Univerzalno</p>
+            <h5><strong>{{$t('design')}}</strong></h5>
+            <p>{{$t('flexibility')}}</p>
+            <h5><strong>{{$t('wordMaterials')}}</strong></h5>
+            <p>{{$t('reciklat')}}</p>
+            <h5><strong>{{$t('compatibility')}}</strong></h5>
+            <p>{{$t('universal')}}</p>
           </div>
         </div>
       </div>
 
       <div class="podprofil mb-5" style='margin-top: 100px;'>
-        <h2>Prozorska univerzalna lajsna</h2>
+        <h2>{{$t('windowUniversal')}}</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-around">
           <div class="col-6 col-md-3">
@@ -56,7 +54,7 @@
       </div>
 
       <div class="podprofil mb-1" style='margin-top: 100px;'>
-        <h2>Distanceri za logistička rješenja (pakovanje)</h2>
+        <h2>{{$t('distancers')}}</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-between">
           <div class="col-xs-1 col-md-3 w-50">
@@ -89,13 +87,13 @@
           </div>
         </div>
         <div class=''>
-          <h5><strong>Dimenzije</strong></h5>
-          <p>Moguće su izrade sa različitim dimenzijskim karakteristikama</p>
-          <h5><strong>Mogućnosti izrade</strong></h5>
-          <p> Mogućnost izrade sa različitim stepenom tvrdoće (55-90 Shore) kao i različitim obradama nakon ekstruzije.
+          <h5><strong>{{$t('dimensions')}}</strong></h5>
+          <p>{{$t('characteristics')}}</p>
+          <h5><strong>{{$t('possibilities')}}</strong></h5>
+          <p> {{$t('possibilities2')}}
           </p>
-          <h5><strong>Materijal</strong></h5>
-          <p>Izrađuju se od plastificiranog mekog PVC materijala.</p>
+          <h5><strong>{{$t('wordMaterial')}}</strong></h5>
+          <p>{{$t('softPvc')}}</p>
         </div>
       </div>
 
@@ -105,37 +103,36 @@
     <!-- PODPROFILI -->
     <section id="rauchbier" class="tab-panel">
       <div class="podprofil">
-        <h2>Prozorski podprofil BLUE EVO</h2>
+        <h2>{{$t('windowSubprofile')}} BLUE EVO</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-between">
           <div class="col-lg-7 col-md-12">
             <img src="/images/blue evo.png" alt="" class="slikeProfila">
           </div>
           <div class="col-lg-5 col-md-12 mt-2">
-            <h5><strong>Dizajn</strong></h5>
-            <p>Dupli dihtung. Opcionalno bez dodatnog priključka na prozorski profil. Moguća univerzalna primjena</p>
-            <h5><strong>Materijali</strong></h5>
-            <p>Reciklat PVC prozorskih profila</p>
-            <h5><strong>Kompatibilnost</strong></h5>
+            <h5><strong>{{$t('design')}}</strong></h5>
+            <p>{{$t('blueEvoText')}}</p>
+            <h5><strong>{{$t('wordMaterials')}}</strong></h5>
+            <p>{{$t('reciklat')}}</p>
+            <h5><strong>{{$t('compatibility')}}</strong></h5>
             <img src="/images/brugman.png" alt="" style="width: 80px !important;">
           </div>
         </div>
       </div>
 
       <div class="podprofil ">
-        <h2>Prozorski podprofil BSV</h2>
+        <h2>{{$t('windowSubprofile')}} BSV</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-between">
           <div class="col-lg-7 col-md-12">
             <img src="/images/bsv.png" alt="" class="slikeProfila">
           </div>
           <div class="col-lg-5 col-md-12 mt-2">
-            <h5><strong>Dizajn</strong></h5>
-            <p>Fleksibilnost, dupli dihtung, vanjska komora ispunjena pjenom, opcionalno dostupno bez pjene, i bez
-              priključka za klupicu. Moguća univerzalna primjena</p>
-            <h5><strong>Materijali</strong></h5>
-            <p>Reciklat PVC prozorskih profila</p>
-            <h5><strong>Kompatibilnost</strong></h5>
+            <h5><strong>{{$t('design')}}</strong></h5>
+            <p>{{$t('bsvText')}}</p>
+            <h5><strong>{{$t('wordMaterials')}}</strong></h5>
+            <p>{{$t('reciklat')}}</p>
+            <h5><strong>{{$t('compatibility')}}</strong></h5>
             <img src="/images/brugman.png" alt="" style="width: 80px !important;">
             <img src="/images/salamander.png" alt="" style="width: 80px !important;">
             <img src="/images/inoutic.png" alt="" style="width: 80px !important;">
@@ -145,19 +142,18 @@
       </div>
 
       <div class="podprofil ">
-        <h2>Prozorski podprofil PEG</h2>
+        <h2>{{$t('windowSubprofile')}} PEG</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-between">
           <div class="col-lg-7 col-md-12">
             <img src="/images/peg.png" alt="" class="slikeProfila">
           </div>
           <div class="col-lg-5 col-md-12 mt-2">
-            <h5><strong>Dizajn</strong></h5>
-            <p>Fleksibilnost, dupli dihtung, vanjska komora ispunjena pjenom, opcionalno dostupno bez pjene, i bez
-              priključka za klupicu. Moguća univerzalna primjena</p>
-            <h5><strong>Materijali</strong></h5>
-            <p>Reciklat PVC prozorskih profila</p>
-            <h5><strong>Kompatibilnost</strong></h5>
+            <h5><strong>{{$t('design')}}</strong></h5>
+            <p>{{$t('pegText')}}</p>
+            <h5><strong>{{$t('wordMaterials')}}</strong></h5>
+            <p>{{$t('reciklat')}}</p>
+            <h5><strong>{{$t('compatibility')}}</strong></h5>
             <img src="/images/inoutic.png" alt="" style="width: 80px !important;">
             <img src="/images/gealan.png" alt="" style="width: 80px !important;">
           </div>
@@ -167,18 +163,18 @@
 
 
       <div class="podprofil ">
-        <h2>Prozorski podprofil SALAMANDER</h2>
+        <h2>{{$t('windowSubprofile')}} SALAMANDER</h2>
         <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
         <div class="row justify-content-between">
           <div class="col-lg-7 col-md-12">
             <img src="/images/salamanderprofil.png" alt="" class="slikeProfila">
           </div>
           <div class="col-lg-5 col-md-12 mt-2">
-            <h5><strong>Dizajn</strong></h5>
-            <p>Fleksibilnost, dihtung, Širina profila 20 do 30mm, maksimalno 6 komora. Moguća univerzalna primjena.</p>
-            <h5><strong>Materijali</strong></h5>
-            <p>Reciklat PVC prozorskih profila</p>
-            <h5><strong>Kompatibilnost</strong></h5>
+            <h5><strong>{{$t('design')}}</strong></h5>
+            <p>{{$t('salamnderText')}}</p>
+            <h5><strong>{{$t('wordMaterials')}}</strong></h5>
+            <p>{{$t('reciklat')}}</p>
+            <h5><strong>{{$t('compatibility')}}</strong></h5>
             <img src="/images/salamander.png" alt="" style="width: 80px !important;">
 
           </div>

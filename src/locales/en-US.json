@@ -3,6 +3,7 @@
   "aboutUs": "About us",
   "products": "Products",
   "profiles": "Profiles",
+  "subprofiles": "Subprofiles",
   "filters": "Filters",
   "fences": "Fences",
   "development": "Development",
@@ -30,10 +31,14 @@
   "knowledge": "Knowledge and experience",
   "machinePark": "Machine park",
   "materials": "Materials we use",
+  "wordMaterials": "Materials",
+    "wordMaterial": "Material",
+    "dimensions": "Dimensions",
+
   "thirtyYears": "Over 30 years of experience in the field of extrusion.",
-    "mostComplex": "The most demanding solutions in extrusion. ",
+    "mostComplex": "The most advanced solutions in extrusion. ",
     "manyPartnerships": "Numerous successful collaborations and partnerships around the world. ",
-  "machineParkText": "The machine park is filled with machines from eminent European equipment manufacturers in this area.",
+  "machineParkText": "Our machine park is filled with machines from eminent European equipment manufacturers in this area.",
   "materialsText1": "Materials which we use: ",
   "materialsText2": "PVC, soft PVC, ABS, PP, HDPE, LDPE, TPE, WPVC...",
 
@@ -43,11 +48,90 @@
   "processDevelopment": "Extrusion process and product development ",
   "serialService": "Plastic profile extrusion services",
   "coExtrusion": "Coextrusion is a common process in our production with the use of up to 4 types of materials simultaneously.",
-  "partners": "Partners"
+  "partners": "Partners",
+  "toolsDesc": "More than 30 years of successful production of extrusion tools for customers around the world. Tool making relies on our strategic partner, TD Tools GmbH from Germany, which has 37 years of experience in extrusion tool making. Our partner offers solutions in this area, which includes jobs from tool construction to their manufacturing.",
+  "precision": "Precision",
+  "eachTools": "Each tool is designed in 3D-CAD systems to maintain the highest degree of tool precision in production and final adjustment.",
+  "european": "Tools for window profiles - European type",
+  "american": "Tools for window profiles - American type",
+  "wpc": "Tools for WPC applications",
+  "panelsAndFences": "Tools for panels and fences",
+  "conduits": "Tools for conduits",
+
+
+  
+  "productDevelopment" :"Product Development",
+  "developmentText": "The path from the idea to the final product is often arduous and brings with it different requirements. Every customer wants a complete service for their product. This is our main advantage, as we provide a full service where we make the whole process of obtaining a new product more compact and comprehensive. For this reason, we offer a complete solution for your needs, starting from the idea to the final product. Throughout the development of the new product, we offer support in the design, construction and manufacture of tools as well as the selection of the appropriate materials. After obtaining the prototype pieces, they are transferred to serial production. We also offer optimized solutions and packaging variants as well as assistance in the logistics concept. Quality assurance follows the entire production process in all steps, all the way to logistics in order to deliver the product safely. ",
+  "developmentProcess": "Development Process",
+  "idea": "Idea",
+  "design": "Design",
+  "sampling": "Sampling",
+  "massProduction": "Mass Production",
+  "packaging": "Packaging",
+  "logisticsConcept": "Logistics Concepts",
+  "developmentProcessText1": "Every customer request is a new challenge for us. It all starts with a good idea.",
+  "developmentProcessText2": "The design, construction and manufacture of tools is the foundation of any extruded product. In addition to the product, in this part the concept of the whole process of the new product is created. If necessary, we make a 3D prototype of the product.",
+  "developmentProcessText3": "By obtaining the first pieces, we perform internal and external testing, which includes dimensional and functional control. In the end, as a confirmation, we receive approval from the customer that we can go into serial production of the product. ",
+  "developmentProcessText4": "Every minute, new meters of the perfect product are made, continuously from hour to hour (24/7). ",
+  "developmentProcessText5": "Compact, safe and optimized product packaging solutions. ",
+  "developmentProcessText6": "A comprehensive and harmonized logistics concept completes the new product development process.",
+  "filters1": "A complete biological solution for municipal and commercial wastewater treatment. Modular design, flexible upgradeability and long-term reliability are just some of the features of the purifier. ",
+  "filters2": "Adapting to individual requirements means that the system is a uniquely designed project, it is also possible to expand or upgrade existing installations. The key to the high efficiency of these purifiers is the design that provides a large biologically active surface. ",
+
+
+
+  "universalProfile": "Universal PVC profile for sills ",
+  "flexibility": "Flexibility, with connection to aluminum sill. Universal application. ",
+  "reciklat": "Recycled PVC window profiles",
+  "universal": "Universal",
+  "windowUniversal": "Window universal molding",
+  "distancers": "Spacers for logistics solutions (packaging) ",
+  "characteristics": "Fabrications with different dimensional characteristics are possible ",
+  "compatibility": "Compatibility",
+  "possibilities": "Possibilites of production",
+  "possibilities2": "Possibility of production with different degree of hardness (55-90 Shore) as well as different processing after extrusion.",
+  "softPvc": "Made of plasticized soft PVC material. ",
+  "windowSubprofile": "Window subprofile",
+
+
+  
+  "blueEvoText": "Double seal. Optional without additional connection to the window profile. Possible universal application. ",
+  "bsvText" : "Flexibility, double seal, foam-filled outer chamber, optionally foam-free, and without bench connection. Possible universal application. ",
+  "pegText": "Flexibility, double seal, foam-filled outer chamber, optionally foam-free, and without bench connection. Possible universal application. ",
+  "salamanderText": "Flexibility, sealing, Profile width 20 to 30mm, maximum 6 chambers. Possible universal application.",
 
 
 
 
+
+
+  "fencesCharacteristics" : "Fences Characteristics",
+  "warranty": "Warranty",
+  "warrantyText": "With all our fences, you get a 10 year warranty ",
+  "UVStability": "UV Stability",
+  "UVStabilityText": "Guarantee of UV stability of all fences ",
+  "assembly": "Assembly",
+  "assemblyText": "Installation on concrete and earthen substrates ",
+  "dimensions": "Dimensions",
+  "dimensionsText": "Panel width and height available in different dimensions ",
+  "availableColors" : "Available Colors",
+
+  "concept": "Concept",
+  "panelDimensions": "Panel Dimensions",
+  "basicDimensionsText": "174cm(width) x 180cm(height)",
+  "basicAssemblyParts": "Installation parts:",
+  "basicAssemblyPartsText1": "Frame – 2 pcs",
+  "basicAssemblyPartsText2": "Filling– 12 pcs",
+  "basicAssemblyPartsText3": "Reinforcement (metal)",
+
+  "post": "Post",
+  "postDimensions": "Post Dimensions",
+  "postDimensionsText1": "Square cross section-10x10cm",
+  "postDimensionsText2": "Wall thickness-3,50mm",
+  "assemblyPartsOnGround": "Earthen surface mounting parts:",
+  "screws": "Screws",
+  "caps": "Caps",
+  "capsText": "Plastic, Inox(Straight), Inox(Pyramid)"
 
 
 
