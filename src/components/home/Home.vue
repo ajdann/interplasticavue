@@ -17,14 +17,14 @@
       <img class="d-block w-100 filter" src="/images/naslovna/2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-block">
         <h5>{{$t('carousel2')}}</h5>
-        <button type="button" onclick="window.location.href='/razvoj'" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">{{$t('carousel2button')}}</button>
+        <router-link to="/razvoj"><button type="button" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">{{$t('carousel2button')}}</button></router-link> 
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100 filter" src="/images/naslovna/3.jpg" alt="Third slide">
       <div class="carousel-caption d-flex align-items-center flex-column ">
         <h5>{{$t('carousel3')}}</h5>
-        <button type="button" onclick="window.location.href='/alati'" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">{{$t('carousel3button')}}</button>
+        <router-link to="/alati"><button type="button" class="btn btn-outline-light mt-2 px-5" style="font-size: 15px;">{{$t('carousel3button')}}</button></router-link>  
       </div>
     </div>
   </div>
@@ -50,8 +50,8 @@
       </p>
        {{$t('welcomeText2')}} 
      <p></p>
-     <button class="btn btn-info py-2" style="background-color: #375066; width: 150px;"><a
-      style="color: white; text-decoration: none;" href="/contact">{{$t('contactUs')}}</a></button>
+     <button class="btn btn-info py-2" style="background-color: #375066; width: 150px;"><router-link
+      style="color: white; text-decoration: none;" to="/contact">{{$t('contactUs')}}</router-link></button>
     </div>
 
     <div class='col-sm-12 col-md-6'>
@@ -71,8 +71,8 @@
           <div class="card-body">
        
             <p class="card-text">{{$t('card1')}} </p>
-            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
-                style="color: white; text-decoration: none;" href="/profiles">{{$t('profiles')}}</a></button>
+            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><router-link
+                style="color: white; text-decoration: none;" to="/profiles">{{$t('profiles')}}</router-link></button>
           </div>
         </div>
       </div>
@@ -81,8 +81,8 @@
           <img src="/images/karticeslike/ograda.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <p class="card-text">{{$t('card2')}}</p>
-            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
-                style="color: white; text-decoration: none;" href="/fences">{{$t('fences')}}</a></button>
+            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><router-link
+                style="color: white; text-decoration: none;" to="/fences">{{$t('fences')}}</router-link></button>
           </div>
         </div>
       </div>
@@ -92,8 +92,8 @@
             alt="...">
           <div class="card-body">
             <p class="card-text">{{$t('card3')}}</p>
-            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><a
-                style="color: white; text-decoration: none;" href="/precistaci">{{$t('filters')}}</a></button>
+            <button class="btn btn-info" style="background-color: #375066; width: 120px;"><router-link
+                style="color: white; text-decoration: none;" to="/precistaci">{{$t('filters')}}</router-link></button>
           </div>
         </div>
       </div>

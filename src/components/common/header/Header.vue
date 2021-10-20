@@ -16,25 +16,25 @@
                     <router-link to="/onama" class="nav-link">{{ $t('aboutUs')}}</router-link>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <router-link class="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {{$t('products')}}
-                    </a>
+                    </router-link>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/profiles">{{ $t('profiles')}}</a>
-                        <a class="dropdown-item" href="/precistaci">{{ $t('filters')}}</a>
+                        <router-link class="dropdown-item" to="/profiles">{{ $t('profiles')}}</router-link>
+                        <router-link class="dropdown-item" to="/precistaci">{{ $t('filters')}}</router-link>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/fences">{{ $t('fences')}}</a>
+                        <router-link class="dropdown-item" to="/fences">{{ $t('fences')}}</router-link>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/alati">{{ $t('tools')}}</a>
+                    <router-link class="nav-link" to="/alati">{{ $t('tools')}}</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/razvoj">{{ $t('development')}}</a>
+                    <router-link class="nav-link" to="/razvoj">{{ $t('development')}}</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">{{ $t('contact')}}</a>
+                    <router-link class="nav-link" to="/contact">{{ $t('contact')}}</router-link>
                 </li>
             
 
