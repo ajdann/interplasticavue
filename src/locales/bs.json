@@ -120,13 +120,29 @@
   "postDimensionsText1": "Kvadratni presjek-10x10cm",
   "postDimensionsText2": "Debljina stijenke-3,50mm",
   "assemblyPartsOnGround": "Dijelovi za montažu na zemljanoj podlozi:",
-  "screws": "vijci",
+  "screws": "Vijci",
   "caps": "Kape",
-  "capsText": "Plasticna, Inox(Ravna), Inox(Piramida)"
+  "capsText": "Plasticna, Inox(Ravna), Inox(Piramida)",
 
 
+  "width" : "širina",
+  "height" : "visina",
+  "basicAssemblyPartsText1" : "Okvir – 3 kom",
+  "basicAssemblyPartsText2" : "Ispuna – 12 kom",
+  "basicAssemblyPartsText3" : "L profil - 2 kom",
 
+  "reinforcement" : "Ojačanje",
+  "partsForMount": "Dijelovi za montažu na betonskoj podlozi:",
+  "step": "Stopa",
+  "ankerScrews": "Anker vijci",
     
-    
+  "foldedPanel": "Sklopljeni panel",
+  "hanger": "Zakačka",
+  "hangers": "Zakačke",
+
+  "additionalPossibilitesForMount": "Dodatne mogućnosti ugradnje:",
+  "decorationalMolding": "Ukrasna lajsna na stubu",
+  "extraReinforce": "Dodatna ojačanja"
+
 
   }

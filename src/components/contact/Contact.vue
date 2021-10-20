@@ -1,6 +1,6 @@
 <template>
     <div class="jumbotron jumbotron-fluid shadow-sm border-0" id="contactus">
-    <h1 class="display-4 naslov d-flex justify-content-center my-3 bounce-in-top">Kontaktirajte Nas</h1>
+    <h1 class="display-4 naslov d-flex justify-content-center my-3 bounce-in-top">{{$t('contactUs')}}</h1>
 
 </div>
 <div class="container">

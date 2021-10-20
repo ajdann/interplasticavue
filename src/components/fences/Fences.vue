@@ -104,7 +104,7 @@
 
       <div class="templateOgrada" style="margin-top: 130px;">
         <div class="podprofil">
-          <h2>Koncept <strong>BASIC+</strong></h2>
+          <h2>{{$t('concept')}} <strong>BASIC+</strong></h2>
           <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
           <h3 class="mt-5">Panel</h3>
           <div class="row justify-content-between">
@@ -112,16 +112,16 @@
               <img src="/images/ograde/panelbasicplus.png" alt="" class="slikeProfila" style="width: 65%;">
             </div>
             <div class="col-lg-5 col-md-12 mt-2 fontOgrade">
-              <h5><strong>Dimenzije panela</strong></h5>
-              <p>180cm(širina) x 180cm(visina)</p>
-              <h5><strong>Dijelovi za montažu:</strong></h5>
+              <h5><strong>{{$t('panelDimensions')}}</strong></h5>
+              <p>180cm({{$t('width')}}) x 180cm({{$t('height')}})</p>
+              <h5><strong>{{$t('basicAssemblyParts')}}</strong></h5>
               <ul>
-                <li>Okvir – 3 kom</li>
-                <li>Ispuna – 12 kom</li>
-                <li>L profil - 2 kom</li>
-                <li>Vijci</li>
+                <li>{{$t('basicAssemblyPartsText1')}}</li>
+                <li>{{$t('basicAssemblyPartsText2')}}</li>
+                <li>{{$t('basicAssemblyPartsText3')}}</li>
+                <li>{{$t('screws')}}</li>
               </ul>
-              <h5><strong>Dostupne boje</strong></h5>
+              <h5><strong>{{$t('availableColors')}}</strong></h5>
               <div class="d-flex flex-row justify-content-around">
                 <div class="boja rounded shadow-sm prvaBoja"></div>
                 <div class="boja rounded shadow-sm drugaBoja"></div>
@@ -134,35 +134,35 @@
         <div class="podprofil " style='margin-top: -30px;'>
           <div class="row justify-content-between">
             <div class="col-lg-5 col-md-12">
-              <h3 class="align-self-start">Stub</h3>
+              <h3 class="align-self-start">{{$t('post')}}</h3>
               <img  id='nekistub' src="/images/ograde/stubbasic.png"  style="margin-top: 45px;" alt="">
             </div>
             <div class="col-lg-4 col-md-12 fontOgrade" style=' margin-top:40px'>
-              <h5><strong>Dimenzije stuba</strong></h5>
+              <h5><strong>{{$t('postDimensions')}}</strong></h5>
               <ul>
-                <li>Kvadratni presjek-10x10cm</li>
-                <li>Debljina stijenke-3,50mm</li>
+                <li>{{$t('postDimensionsText1')}}</li>
+                <li>{{$t('postDimensionsText2')}}</li>
               </ul>
-              <h5><strong>Dijelovi za montažu na zemljanoj podlozi:</strong></h5>
+              <h5><strong>{{$t('assemblyPartsOnGround')}}</strong></h5>
               <ul>
-                <li>Stub</li>
-                <li>Vijci</li>
-                <li>Ojacanje</li>
+                <li>{{$t('post')}}</li>
+                <li>{{$t('screws')}}</li>
+                <li>{{$t('reinforcement')}}</li>
               </ul>
-              <h5><strong>Dijelovi za montažu na betonskoj podlozi:</strong></h5>
+              <h5><strong>{{$t('partsForMount')}}</strong></h5>
               <div class='d-flex'>
                 <ul>
-                  <li>Stub</li>
-                  <li>Vijci</li>
+                  <li>{{$t('post')}}</li>
+                  <li>{{$t('screws')}}</li>
                 </ul>
                 <ul>
-                  <li>Stopa</li>
-                  <li>Anker vijci</li>
+                  <li>{{$t('step')}}</li>
+                  <li>{{$t('ankerScrews')}}</li>
                 </ul>
               </div>
 
-              <h5><strong>Kape</strong></h5>
-              <p>Plasticna, Inox(Ravna), Inox(Piramida)</p>
+              <h5><strong>{{$t('caps')}}</strong></h5>
+              <p>{{$t('capsText')}}</p>
               <img src="/images/ograde/kape.png" class="w-75" alt="">
               <!-- <h5><strong>Dostupne boje</strong></h5>
         <div class="d-flex flex-row justify-content-around">
@@ -186,7 +186,7 @@
 
       <div class="templateOgrada" style="margin-top: 130px;">
         <div class="podprofil">
-          <h2>Koncept <strong>MEDIUM</strong></h2>
+          <h2>{{$t('concept')}}<strong>MEDIUM</strong></h2>
           <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
           <h3 class="mt-5">Panel</h3>
           <div class="row justify-content-between">
@@ -194,16 +194,16 @@
               <img src="/images/ograde/panelmedium.png" class='img-fluid' alt="">
             </div>
             <div class="col-lg-3 col-md-12 mt-2 fontOgrade">
-              <h5><strong>Dimenzije panela</strong></h5>
-              <p>180cm(širina) x 180cm(visina)</p>
-              <h5><strong>Dijelovi za montažu:</strong></h5>
+              <h5><strong>{{$t('panelDimensions')}}</strong></h5>
+              <p>180cm({{$t('width')}}) x 180cm({{$t('height')}})</p>
+              <h5><strong>{{$t('basicAssemblyParts')}}</strong></h5>
               <ul>
-                <li>Sklopljeni panel</li>
-                <li>Zakacke</li>
-                <li>Vijci</li>
+                <li>{{$t('foldedPanel')}}</li>
+                <li>{{$t('hangers')}}</li>
+                <li>{{$t('screws')}}</li>
 
               </ul>
-              <h5><strong>Dostupne boje</strong></h5>
+              <h5><strong>{{$t('availableColors')}}</strong></h5>
               <div class="d-flex flex-row justify-content-around">
                 <div class="boja rounded shadow-sm prvaBoja"></div>
                 <div class="boja rounded shadow-sm drugaBoja"></div>
@@ -212,7 +212,7 @@
               </div>
             </div>
             <div class='col-lg-3 d-flex flex-column align-items-center'>
-              <h3 id='inoxtekst' class='align-self-start'>Inox Zakačka</h3>
+              <h3 id='inoxtekst' class='align-self-start'>Inox {{$t('hanger')}}</h3>
               <img id='zakacka' src="/images/ograde/zakacka.png" style='width:100%' class='align-self-start' alt="">
 
 
@@ -222,35 +222,35 @@
         <div class="podprofil " style='margin-top: -30px;'>
           <div class="row justify-content-between">
             <div class="col-lg-5 col-md-12">
-              <h3>Stub</h3>
+              <h3>{{$t('post')}}</h3>
               <img id='nekidrugistub' src="/images/ograde/stubbasic.png" style="margin-top: 45px;" class='img-fluid' alt="">
             </div>
             <div class="col-lg-4 col-md-12 fontOgrade" style='margin-top: 40px;'>
-              <h5><strong>Dimenzije stuba</strong></h5>
+              <h5><strong>{{$t('postDimensions')}}</strong></h5>
               <ul>
-                <li>Kvadratni presjek-10x10cm</li>
-                <li>Debljina stijenke-3,50mm</li>
+                <li>{{$t('postDimensionsText1')}}</li>
+                <li>{{$t('postDimensionsText2')}}</li>
               </ul>
-              <h5><strong>Dijelovi za montažu na zemljanoj podlozi:</strong></h5>
+              <h5><strong>{{$t('assemblyPartsOnGround')}}</strong></h5>
               <ul>
-                <li>Stub</li>
-                <li>Vijci</li>
-                <li>Ojacanje</li>
+                <li>{{$t('post')}}</li>
+                <li>{{$t('screws')}}</li>
+                <li>{{$t('reinforcement')}}</li>
               </ul>
-              <h5><strong>Dijelovi za montažu na betonskoj podlozi:</strong></h5>
+              <h5><strong>{{$t('partsForMount')}}</strong></h5>
               <div class='d-flex'>
                 <ul>
-                  <li>Stub</li>
-                  <li>Vijci</li>
+                  <li>{{$t('post')}}</li>
+                  <li>{{$t('screws')}}</li>
                 </ul>
                 <ul>
-                  <li>Stopa</li>
-                  <li>Anker vijci</li>
+                  <li>{{$t('step')}}</li>
+                  <li>{{$t('ankerScrews')}}</li>
                 </ul>
               </div>
 
-              <h5><strong>Kape</strong></h5>
-              <p>Plasticna, Inox(Ravna), Inox(Piramida)</p>
+              <h5><strong>{{$t('caps')}}</strong></h5>
+              <p>{{$t('capsText')}}</p>
               <img src="/images/ograde/kape.png" class="w-75" alt="">
               <!-- <h5><strong>Dostupne boje</strong></h5>
           <div class="d-flex flex-row justify-content-around">
@@ -261,7 +261,7 @@
           </div> -->
             </div>
             <div class='col-lg-3 d-flex flex-column align-items-center'>
-              <h3 class='align-self-start'>Stopa</h3>
+              <h3 class='align-self-start'>{{$t('step')}}</h3>
               <img src="/images/ograde/stubbasicplus3.png" style='width:180%' class='stopa mrzimoveslike' alt="">
 
 
@@ -276,7 +276,7 @@
 
       <div class="templateOgrada" style="margin-top: 130px;">
         <div class="podprofil">
-          <h2>Koncept <strong>MEDIUM+</strong></h2>
+          <h2>{{$t('concept')}} <strong>MEDIUM+</strong></h2>
           <hr class='align-self-sm-center align-self-md-start w-50 ml-0 mt-1 mb-3'>
           <h3 class="mt-5">Panel</h3>
           <div class="row justify-content-between">
@@ -304,22 +304,22 @@
               </div>
             </div>
             <div class="col-lg-5 col-md-12 mt-2 fontOgrade">
-              <h5><strong>Dimenzije panela</strong></h5>
-              <p>180cm(širina) x 180cm(visina)</p>
-              <h5><strong>Dijelovi za montažu:</strong></h5>
+              <h5><strong>{{$t('panelDimensions')}}</strong></h5>
+              <p>180cm({{$t('width')}}) x 180cm({{$t('height')}})</p>
+              <h5><strong>{{$t('basicAssemblyParts')}}</strong></h5>
               <ul>
-                <li>Sklopljeni panel</li>
-                <li>Zakacke</li>
-                <li>Vijci</li>
+                <li>{{$t('foldedPanel')}}</li>
+                <li>{{$t('hangers')}}</li>
+                <li>{{$t('screws')}}</li>
               </ul>
-              <h5><strong>Dodatne mogucnosti ugradnje:</strong></h5>
+              <h5><strong>{{$t('additionalPossibilitesForMount')}}</strong></h5>
               <ul>
-                <li>Ukrasna lajsna na stubu</li>
-                <li>Dodatna ojacanja</li>
+                <li>{{$t('decorationalMolding')}}</li>
+                <li>{{$t('extraReinforce')}}</li>
 
               </ul>
 
-              <h5><strong>Dostupne boje</strong></h5>
+              <h5><strong>{{$t('availableColors')}}</strong></h5>
               <div class="d-flex flex-row justify-content-around">
                 <div class="boja rounded shadow-sm prvaBoja"></div>
                 <div class="boja rounded shadow-sm drugaBoja"></div>

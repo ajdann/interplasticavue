@@ -105,7 +105,7 @@
 
 
 
-  "fencesCharacteristics" : "Fences Characteristics",
+  "fencesCharacteristics" : "Fence Characteristics",
   "warranty": "Warranty",
   "warrantyText": "With all our fences, you get a 10 year warranty ",
   "UVStability": "UV Stability",
@@ -131,9 +131,25 @@
   "assemblyPartsOnGround": "Earthen surface mounting parts:",
   "screws": "Screws",
   "caps": "Caps",
-  "capsText": "Plastic, Inox(Straight), Inox(Pyramid)"
+  "capsText": "Plastic, Inox(Straight), Inox(Pyramid)",
 
+  "width" : "width",
+  "height" : "height",
+  "basicAssemblyPartsText1" : "Frame - 3 pcs",
+  "basicAssemblyPartsText2" : "Filling - 12 pcs",
+  "basicAssemblyPartsText3" : "L profile - 2 pcs",
 
+  "reinforcement" : "Reinforcement",
+  "partsForMount": "Concrete mounting parts:",
+  "step": "Step",
+  "ankerScrews": "Anker screws",
 
+  "foldedPanel": "Folded Panel",
+  "hanger": "Hanger",
+  "hangers": "Hangers",
+
+  "additionalPossibilitesForMount": "Additional possibilities for mounting:",
+  "decorationalMolding": "Decorational molding on post",
+  "extraReinforce": "Additional Reinforcement"
 
 }
